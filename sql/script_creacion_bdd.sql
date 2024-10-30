@@ -1,5 +1,7 @@
 CREATE DATABASE IF NOT EXISTS HOSPITAL;
 
+USE HOSPITAL;
+
 CREATE TABLE IF NOT EXISTS CENTROS_HOSPITALARIOS(
     id_hospital primary key int,
     nombre varchar(100)
