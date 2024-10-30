@@ -2,12 +2,12 @@ import psycopg2
 
 crecacion_database_tablas = """
 CREATE TABLE IF NOT EXISTS CENTROS_HOSPITALARIOS(
-    id_hospital primary key int,
+    id_hospital int primary key,
     nombre varchar(100)
 );
 
 CREATE TABLE IF NOT EXISTS GASTOS(
-    id_gastos primary key serial, 
+    id_gastos serial primary key, 
     id_hospital int not null,
     anio numeric,
     totalcompra numeric,
@@ -32,11 +32,11 @@ CREATE TABLE IF NOT EXISTS GASTOS(
     xrestogasto numeric,
     totcompragasto numeric,
     foreign key (id_hospital)
-        references (CENTROS_HOSPITALARIOS)
+        references CENTROS_HOSPITALARIOS(id_hospital)
 );
 
 CREATE TABLE IF NOT EXISTS TIPOS_HOSPITALIZACION(
-    id_tipo primary key,
+    id_tipo serial primary key,
     nombre varchar(100)
 );
 
