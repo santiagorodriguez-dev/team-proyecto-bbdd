@@ -1,7 +1,7 @@
 import psycopg2
 
 crecacion_database_tablas = """
-CREATE DATABASE IF NOT EXISTS HOSPITAL,
+CREATE DATABASE IF NOT EXISTS HOSPITAL;
 
 CREATE TABLE IF NOT EXISTS CENTROS_HOSPITALARIOS(
     id_hospital primary key int,
