@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram name="Página-1" id="b3-MvFCtk0UaSDkYy1m7">
-        <mxGraphModel dx="1001" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="832" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="Ls7QT-pm3uo2KFfaicMo-1" value="&lt;div&gt;REGISTROS_GASTOS&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="1" vertex="1">
+                <mxCell id="Ls7QT-pm3uo2KFfaicMo-1" value="&lt;div&gt;GASTOS&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="10" y="40" width="200" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="ntkdI7gz7cS35Q-A5EuE-10" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" parent="Ls7QT-pm3uo2KFfaicMo-1" vertex="1">
@@ -48,7 +48,7 @@
                 <mxCell id="ntkdI7gz7cS35Q-A5EuE-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="Ls7QT-pm3uo2KFfaicMo-4" target="Ls7QT-pm3uo2KFfaicMo-1" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="Ls7QT-pm3uo2KFfaicMo-4" value="HOSPITALES" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+                <mxCell id="Ls7QT-pm3uo2KFfaicMo-4" value="CENTRO_HOSPITALARIO" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
                     <mxGeometry x="300" y="180" width="200" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="ntkdI7gz7cS35Q-A5EuE-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" parent="Ls7QT-pm3uo2KFfaicMo-4" vertex="1">
@@ -97,7 +97,7 @@
                 <mxCell id="ntkdI7gz7cS35Q-A5EuE-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ntkdI7gz7cS35Q-A5EuE-20" target="ntkdI7gz7cS35Q-A5EuE-30" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ntkdI7gz7cS35Q-A5EuE-20" value="&lt;div&gt;REGISTROS_INGRESOS&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+                <mxCell id="ntkdI7gz7cS35Q-A5EuE-20" value="&lt;div&gt;INGRESOS&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
                     <mxGeometry x="570" y="30" width="200" height="175" as="geometry"/>
                 </mxCell>
                 <mxCell id="ntkdI7gz7cS35Q-A5EuE-21" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" parent="ntkdI7gz7cS35Q-A5EuE-20" vertex="1">
@@ -135,7 +135,7 @@
                         <mxRectangle width="200" height="37" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="ntkdI7gz7cS35Q-A5EuE-30" value="&lt;div&gt;TIPOS&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
+                <mxCell id="ntkdI7gz7cS35Q-A5EuE-30" value="&lt;div&gt;TIPO_DE_HOSPITALIZACION&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
                     <mxGeometry x="570" y="320" width="200" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="ntkdI7gz7cS35Q-A5EuE-31" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" parent="ntkdI7gz7cS35Q-A5EuE-30" vertex="1">
