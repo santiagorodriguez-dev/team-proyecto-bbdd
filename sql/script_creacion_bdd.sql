@@ -49,7 +49,7 @@ CREATE TABLE  IF NOT EXISTS INGRESOS(
     aseguradoreas_trafico NUMERIC(10,2),
     mutuas NUMERIC(10,2),
     id_tipo INT not null,
-    año INT not null,
+    anio INT not null,
     id_hospital INT not null,
     foreign key (id_tipo)
         references TIPOS_HOSPITALIZACION(id_tipo),
