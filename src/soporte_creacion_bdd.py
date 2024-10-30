@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS TIPOS_HOSPITALIZACION(
 );
 
 CREATE TABLE  IF NOT EXISTS INGRESOS(
-    id_ingreso SERIAL not null,
+    id_ingreso SERIAL primary key not null,
     particulares NUMERIC(10,2),
     aseguradoras NUMERIC(10,2),
     aseguradoras_enfermedad NUMERIC(10,2),
